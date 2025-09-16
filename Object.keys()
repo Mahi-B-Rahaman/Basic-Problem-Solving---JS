@@ -1,0 +1,14 @@
+const User = {
+fName : "Mahi" , 
+sName : "Rahaman" , 
+Address : "Agrabad,CDA,17/1"
+}
+
+const keys = Object.keys(User) ;
+cnosole.log(keys)
+//it will show the keys of the object
+
+const values = Object.values(User)
+//it will show the values of the object
+const entries = Object.entries(User)
+////it will show the keys wil values of the object
